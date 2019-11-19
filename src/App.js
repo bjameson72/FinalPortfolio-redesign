@@ -1,22 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
+import Home from "../src/components/pages/Home";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Wow Haven't seen this in a while, feels so Good!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Let's fucking kill this site in the best, fastest way possible :)
-        </a>
-      </header>
+      <Home />
     </div>
   );
 }

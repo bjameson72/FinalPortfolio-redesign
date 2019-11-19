@@ -1,0 +1,31 @@
+#NavBarContainer {
+  height: 6rem;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+#logo {
+  width: 7rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  object-fit: none;
+  position: relative;
+  cursor: pointer;
+}
+
+#linksContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.NavLink {
+  color: white;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  cursor: pointer;
+}
