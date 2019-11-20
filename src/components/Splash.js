@@ -1,7 +1,7 @@
 import React from "react";
 import "../styling/Splash.css";
 
-import CodeVid from "../assets/video/Source-Code1280.mp4";
+import CodeVid from "../assets/video/Source-Code.mp4";
 import NavBar from "./NavBar";
 
 class Splash extends React.Component {
