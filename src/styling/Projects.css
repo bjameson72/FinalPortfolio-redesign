@@ -5,6 +5,37 @@
 }
 
 #ProjectsTitle {
+    padding-top: 2rem;
     color: var(--white);
     text-align: center;
 }
+
+#LaptopContainer {
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.laptop {
+    width: 32.5rem;
+    display: flex;
+    justify-self: center;
+}
+
+#ButtonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5.5rem;
+}
+
+#ProjectsButton {
+    position: relative;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--red);
+    border: none;
+    border-radius: 7.5px;
+    width: 10rem;
+    font-size: 12px;;
+    cursor: pointer;
+  }

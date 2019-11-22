@@ -4,6 +4,7 @@
 }
 
 #ContactTitle {
+    padding-top: 2rem;
     color: var(--white);
     text-align: center;
 }
