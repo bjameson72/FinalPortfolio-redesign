@@ -57,7 +57,7 @@
     color: var(--green);
     background-color: var(--extra-light-green);
     padding-top: .5rem;
-    padding-left: .5rem;
+    padding-left: 1rem;
     padding-bottom: .5rem;
     border-color: var(--extra-light-green);
     border-style: solid;
@@ -95,18 +95,19 @@
   .tabContainer {
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 2.5rem;
   }
   
   .pic1 {
-    width: 80%;
+    width: 75%;
     border-radius: 5px;
     margin: auto;
     display: block;
   }
   
   .pictures {
-    margin: auto;
+    /* margin: auto; */
+    align-self: center;
   }
   
   .farragut {

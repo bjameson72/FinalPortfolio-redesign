@@ -5,16 +5,17 @@ const Education = () => (
   <div className="grid">
     <article className="content">
       <p className="paragraphContent">
-        Hi, my name is Brock! I'm a Chicago native that relocated to Los Angeles
-        after graduating from DePaul University. Usually I can be found with my
-        headphones in, listening to music and working on my laptop.
+        I started majoring in accounting, but always have had an interest in
+        working with computers. I decided to switch majors after my freshman
+        year to focus on Software Engineering, but decided to still keep my
+        minor in Finance.
       </p>
       <p className="paragraphContent">
-        Throughout my childhood and through high school I played golf extremely
-        competitively, traveling across the country to participate in
-        tournaments. I stopped playing competitively when I got to college to
-        focus on school instead of trying to balance both, but I still love
-        playing for fun in my free time.
+        My favorite project that I worked on at DePaul University was an Angular
+        project that I was a part of with 3 others where we made a
+        cryptotracking application. The web application allowed a user to sign
+        in, choose which cryptocurrency markets the user wants to monitor, and
+        see live feed of information about those markets.
       </p>
     </article>
     <section className="pictures">
