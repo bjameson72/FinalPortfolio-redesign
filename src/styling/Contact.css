@@ -1,10 +1,83 @@
 #ContactContainer {
     height: 45rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
     background-color: var(--green);
 }
 
-#ContactTitle {
-    padding-top: 2rem;
+.ContactTitle {
+    padding-top: 2.5rem;
     color: var(--white);
     text-align: center;
+    margin-top: 0;
 }
+
+.ContactTitleBottom {
+    color: var(--white);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+/* #RightTitleContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+} */
+
+#NoFormContainer {
+    display: grid;
+    grid-template-rows: 45% 25% 30%;
+    justify-self: baseline;
+}
+
+#Form {
+    margin-top: 1rem;
+    background-color: var(--dark-green);
+    height: 67.5%;
+    width: 75%;
+    border-radius: 10px;
+}
+
+#FormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#HeadshotContainer {
+    height: 17.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+#Headshot {
+    height: 100%;
+    border-radius: 600px;
+
+}
+
+#ContactSocialButtons {
+    position: relative;
+    align-self: center;
+    display: flex;
+    height: 27.5%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialIcon {
+    position: relative;
+    z-index: 10;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  .icon {
+    height: 3rem;
+  }
