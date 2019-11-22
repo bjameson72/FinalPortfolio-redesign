@@ -11,13 +11,14 @@
 }
 
 #LaptopContainer {
-    padding-top: 3.5rem;
+    padding-top: 0.5rem;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
 .laptop {
-    width: 32.5rem;
+    width: -webkit-fill-available;
+    padding: 4rem;
     display: flex;
     justify-self: center;
 }
@@ -25,17 +26,21 @@
 #ButtonContainer {
     display: flex;
     justify-content: center;
-    padding-top: 5.5rem;
+    padding-top: 1.5rem;
 }
 
 #ProjectsButton {
     position: relative;
     margin-top: 1rem;
     padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color: var(--red);
+    color: var(--white);
     border: none;
     border-radius: 7.5px;
-    width: 10rem;
-    font-size: 12px;;
+    width: 12rem;
+    height: 3rem;
+    font-size: 12px;
     cursor: pointer;
   }

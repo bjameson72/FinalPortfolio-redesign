@@ -16,7 +16,12 @@ class NavBar extends React.Component {
           <a className="NavLink">About</a>
           <a className="NavLink">Projects</a>
           <a className="NavLink">Contact</a>
-          <a href={Resume} className="NavLink" target="_blank">
+          <a
+            href={Resume}
+            className="NavLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </div>

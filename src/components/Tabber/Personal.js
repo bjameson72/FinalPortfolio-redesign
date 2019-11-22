@@ -6,8 +6,8 @@ const Personal = () => (
     <article className="content">
       <p className="paragraphContent">
         Hi, my name is Brock! I'm a Chicago native that relocated to Los Angeles
-        after graduating from DePaul University. Usually I can be found with my
-        headphones in, listening to music and working on my laptop.
+        after graduating from DePaul University in 2018. Usually I can be found
+        with my headphones in, listening to music and working on my laptop.
       </p>
       <p className="paragraphContent">
         I used to play golf extremely competitively, but stopped when I got to
