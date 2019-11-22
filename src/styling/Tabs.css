@@ -29,13 +29,15 @@
     border-radius: 5px 5px 0 0;
     border-bottom: solid;
     border-bottom-color: var(--green);
-    border-bottom-width: 0.1rem;
+    border-bottom-width: 0.05rem;;
     background-color: var(--extra-light-green);
+    transition: .8s;
   }
   
   .react-tabs__tab--disabled {
     color: var(--grey);
     cursor: default;
+    transition: .8s;
   }
   
   .react-tabs__tab:focus:after {
@@ -49,6 +51,7 @@
   
   .react-tabs__tab-panel {
     display: none;
+    
   }
   
   .react-tabs__tab-panel--selected {
@@ -95,7 +98,7 @@
   .tabContainer {
     display: flex;
     justify-content: center;
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
   }
   
   .pic1 {

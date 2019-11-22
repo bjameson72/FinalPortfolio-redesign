@@ -2,7 +2,7 @@ import React from "react";
 import "../styling/Splash.css";
 import Github from "../assets/images/github.jpg";
 import Linkedin from "../assets/images/linkedin.png";
-import Facebook from "../assets/images/facebook.png";
+import Instagram from "../assets/images/Instagram.png";
 
 import CodeVid from "../assets/video/Source-Code.mp4";
 import NavBar from "./NavBar";
@@ -21,14 +21,29 @@ class Splash extends React.Component {
             <button id="SplashButton">Check out my work!</button>
           </div>
           <div id="SplashSocialButtons">
-            <a className="socialIcon">
-              <img className="icon" src={Linkedin} />
+            <a
+              href="https://www.linkedin.com/in/brockjameson/"
+              className="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="icon" src={Linkedin} alt="LinkedIn Link" />
             </a>
-            <a className="socialIcon">
-              <img className="icon" src={Facebook} />
+            <a
+              href="https://www.instagram.com/bjameson72/?hl=ur"
+              className="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="icon" src={Instagram} alt="Facebook Link" />
             </a>
-            <a className="socialIcon">
-              <img className="icon" src={Github} />
+            <a
+              href="https://github.com/bjameson72"
+              className="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="icon" src={Github} alt="Github Link" />
             </a>
           </div>
         </div>

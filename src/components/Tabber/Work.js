@@ -1,25 +1,30 @@
 import React from "react";
-import Golf from "../../assets/images/golf.png";
+import Farragut from "../../assets/images/work.jpg";
 
 const Work = () => (
   <div className="grid">
     <article className="content">
       <p className="paragraphContent">
-        Hi, my name is Brock! I'm a Chicago native that relocated to Los Angeles
-        after graduating from DePaul University. Usually I can be found with my
-        headphones in, listening to music and working on my laptop.
+        My first internship involved going to an inner-city charter school in
+        Chicago, IL to teach students the importance of Computer Science. The
+        class used Scratch to learn, which is a drag-and-drop programming
+        software built by MIT to teach kids basic coding fundamentals. This
+        internship was a great experience overall and was very rewarding to be
+        able to teach kids this level of technology that they had never seen
+        before.
       </p>
       <p className="paragraphContent">
-        Throughout my childhood and through high school I played golf extremely
-        competitively, traveling across the country to participate in
-        tournaments. I stopped playing competitively when I got to college to
-        focus on school instead of trying to balance both, but I still love
-        playing for fun in my free time.
+        After relocating to Los Angeles, I was able to find an opportunity at
+        Talent Path as a Full-Stack Software Engineer where I was able to
+        continue learning and perfecting my skills as a web developer. Recently,
+        I have gotten very familiar with building full-scale web applications
+        using various JavaScript frameworks and libraries while also learning to
+        work in larger development teams in an agile environment.
       </p>
     </article>
     <section className="pictures">
       <div className="pictureContainer">
-        <img className="pic1" src={Golf} alt="Golfing" />
+        <img className="pic1" src={Farragut} alt="Farragut Academy" />
       </div>
     </section>
   </div>

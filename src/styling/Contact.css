@@ -1,0 +1,9 @@
+#ContactContainer {
+    height: 45rem;
+    background-color: var(--green);
+}
+
+#ContactTitle {
+    color: var(--white);
+    text-align: center;
+}

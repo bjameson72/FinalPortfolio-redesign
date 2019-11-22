@@ -1,0 +1,10 @@
+#ProjectsContainer {
+    height: 45rem;
+    width: 100%;
+    background-color: var(--grey);
+}
+
+#ProjectsTitle {
+    color: var(--white);
+    text-align: center;
+}
