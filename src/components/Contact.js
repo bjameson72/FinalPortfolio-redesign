@@ -4,6 +4,7 @@ import Github from "../assets/images/github.jpg";
 import Linkedin from "../assets/images/linkedin.png";
 import Instagram from "../assets/images/Instagram.png";
 import headshot from "../assets/images/headshot.jpeg.jpg";
+import Form from "./Form";
 
 class Contact extends React.Component {
   render() {
@@ -14,7 +15,9 @@ class Contact extends React.Component {
             <h1 className="ContactTitle">Have a question?</h1>
             <h1 className="ContactTitleBottom">Want to grab a coffee?</h1>
           </div>
-          <div id="Form"></div>
+          <div id="Form">
+            <Form />
+          </div>
         </div>
         <div id="NoFormContainer">
           <div id="HeadshotContainer">

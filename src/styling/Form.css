@@ -1,0 +1,76 @@
+#FormContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#Form {
+    width: 75%;
+    height: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#name {
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 5%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: var(--extra-light-green);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: var(--white);
+}
+
+#email {
+    width: 100%;
+    height: 5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: var(--extra-light-green);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: var(--white);
+}
+
+#question { 
+    width: 100%; 
+    height: 40%;
+    border-radius: 10px;
+    background-color: var(--extra-light-green);
+    border: none;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+
+#question::placeholder {
+    color: var(--grey);
+} 
+
+#ButtonContainer {
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+.btn--submit {
+    width: 30%;
+    padding: .75rem;
+    position: relative;
+    margin-top: 1.5rem;
+    background-color: var(--red);
+    border: none;
+    border-radius: 7.5px;
+    z-index: 10;
+    font-size: 14;
+    color: var(--white);
+}
+
+::placeholder {
+    color: var(--white);
+}

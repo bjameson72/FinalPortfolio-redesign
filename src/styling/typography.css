@@ -20,11 +20,14 @@ h2 {
   font-weight: 500;
 }
 
-h3 {
+textarea {
   font-family: "Varela Round", sans-serif;
+  font-size: 14px;
 }
 
 p,
+h3 
 div {
   font-family: "Varela Round", sans-serif;
+  font-size: 12px;
 }
