@@ -1,7 +1,66 @@
 #videoTag {
   margin-bottom: -0.5rem;
   margin-top: -6rem;
-  position: relative;
+  
   width: 100%;
   z-index: 0;
+}
+
+#SplashContainer {
+  position: relative;
+}
+
+#SplashSectionContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#SplashInfoButtonContainer {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    transform: translateY(-9.5rem);
+}
+
+#SplashInfo {
+  position: relative;
+    z-index: 10;
+    color: var(--white);
+}
+
+#SplashButton {
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--red);
+  border: none;
+  border-radius: 7.5px;
+  z-index: 10;
+  width: 10rem;
+  cursor: pointer;
+}
+
+#SplashSocialButtons {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  transform: translateY(-7rem);
+}
+
+.socialIcon {
+  position: relative;
+  z-index: 10;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  margin: .5rem;
+}
+
+.icon {
+  height: 2rem;
 }

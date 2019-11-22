@@ -1,0 +1,122 @@
+.react-tabs {
+    -webkit-tap-highlight-color: transparent;
+    width: 70%;
+  }
+  
+  .react-tabs__tab-list {
+    margin: 0 0;
+    padding: 0;
+    display: flex;
+    padding-left: 1rem;
+    height: 2.5rem;
+  }
+  
+  .react-tabs__tab {
+    display: inline-block;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: var(--white);
+  }
+  
+  .react-tabs__tab--selected {
+    background: var(--white);
+    border-color: var(--green);
+    color: var(--green);
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid;
+    border-bottom-color: var(--green);
+    border-bottom-width: 0.1rem;
+    background-color: var(--extra-light-green);
+  }
+  
+  .react-tabs__tab--disabled {
+    color: var(--grey);
+    cursor: default;
+  }
+  
+  .react-tabs__tab:focus:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: -4px;
+    right: -4px;
+    bottom: -5px;
+  }
+  
+  .react-tabs__tab-panel {
+    display: none;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: block;
+    height: 100%;
+    color: var(--green);
+    background-color: var(--extra-light-green);
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    border-color: var(--extra-light-green);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 5px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-areas: " left right ";
+    grid-template-columns: 65% 35%;
+    height: 100%;
+  }
+
+  .content {
+    align-self: center;
+  }
+
+  .grid > .content {
+    grid-area: left;
+  }
+  
+  .grid > .pictures {
+    grid-area: right;
+  }
+  
+  .paragraphContent {
+    text-align: justify;
+    margin-top: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.7rem;
+  }
+  
+  .tabContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+  
+  .pic1 {
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+  }
+  
+  .pictures {
+    margin: auto;
+  }
+  
+  .farragut {
+    border-radius: 100%;
+    width: 70%;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+  
+  workPictures {
+    display: flex;
+    flex-direction: column;
+  }
