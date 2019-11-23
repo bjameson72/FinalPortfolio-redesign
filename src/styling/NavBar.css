@@ -1,4 +1,4 @@
-#NavBarContainer {
+.NavBarContainer {
   height: 6rem;
   width: 100%;
   position: relative;
@@ -29,4 +29,15 @@
   margin-right: 0.75rem;
   cursor: pointer;
   text-decoration: none;
+}
+
+.isScrolling {
+  background-color: var(--grey);
+  position: fixed;
+  z-index: 10000;
+  height: 5rem;
+}
+
+.isScrolling #logoContainer #logo {
+  margin-top: 0;
 }

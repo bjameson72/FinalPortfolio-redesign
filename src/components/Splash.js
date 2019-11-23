@@ -11,7 +11,6 @@ class Splash extends React.Component {
   render() {
     return (
       <div id="SplashContainer">
-        <NavBar />
         <div id="SplashSectionContainer">
           <video id="videoTag" autoPlay loop muted>
             <source src={CodeVid} type="video/mp4" />

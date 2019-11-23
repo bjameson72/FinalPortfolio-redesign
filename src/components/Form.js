@@ -91,7 +91,7 @@ class Form extends React.Component {
             required
             value={this.state.question}
           />
-          <div id="ButtonContainer">
+          <div id="RedButtonContainer">
             <input
               type="button"
               value="Send Message"
