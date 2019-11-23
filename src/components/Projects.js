@@ -28,7 +28,7 @@ class Projects extends React.Component {
           <button id="ProjectsButton">
             <a
               id="GithubButton"
-              href="https://github.com/bjameson72"
+              href="https://www.github.com/bjameson72"
               target="_blank"
               rel="noopener noreferrer"
             >
