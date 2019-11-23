@@ -3,6 +3,7 @@ import "../styling/Splash.css";
 import Github from "../assets/images/github.jpg";
 import Linkedin from "../assets/images/linkedin.png";
 import Instagram from "../assets/images/Instagram.png";
+import { Link } from "react-scroll";
 
 import CodeVid from "../assets/video/Source-Code.mp4";
 import NavBar from "./NavBar";
@@ -17,7 +18,18 @@ class Splash extends React.Component {
           </video>
           <div id="SplashInfoButtonContainer">
             <h1 id="SplashInfo">Welcome to my portfolio!</h1>
-            <button id="SplashButton">Check out my work!</button>
+            <button id="SplashButton">
+              <Link
+                activeClass="active"
+                to="ProjectsContainer"
+                spy={true}
+                smooth={true}
+                offset={-85}
+                duration={600}
+              >
+                Check out my work!
+              </Link>
+            </button>
           </div>
           <div id="SplashSocialButtons">
             <a

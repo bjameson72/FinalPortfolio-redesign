@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   z-index: 10;
+  transition: .8s;
 }
 
 #logo {
@@ -32,10 +33,11 @@
 }
 
 .isScrolling {
-  background-color: var(--grey);
+  background-color: rgba(71, 69, 84, .6);
   position: fixed;
   z-index: 10000;
   height: 5rem;
+  transition: .8s;
 }
 
 .isScrolling #logoContainer #logo {

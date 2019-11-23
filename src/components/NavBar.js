@@ -54,7 +54,16 @@ class NavBar extends React.Component {
         }
       >
         <div id="logoContainer">
-          <img src={logo} id="logo" alt="Brock Jameson" />
+          <Link
+            activeClass="active"
+            to="HomeContainer"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={600}
+          >
+            <img src={logo} id="logo" alt="Brock Jameson" />
+          </Link>
         </div>
         <div id="linksContainer">
           <Link
@@ -63,7 +72,7 @@ class NavBar extends React.Component {
             to="AboutContainer"
             spy={true}
             smooth={true}
-            offset={-130}
+            offset={-80}
             duration={600}
           >
             About
@@ -74,7 +83,7 @@ class NavBar extends React.Component {
             to="ProjectsContainer"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-85}
             duration={650}
           >
             Projects
