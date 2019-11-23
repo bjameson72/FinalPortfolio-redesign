@@ -72,7 +72,7 @@ class NavBar extends React.Component {
             to="AboutContainer"
             spy={true}
             smooth={true}
-            offset={-140}
+            offset={-80}
             duration={600}
           >
             About
@@ -83,7 +83,7 @@ class NavBar extends React.Component {
             to="ProjectsContainer"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-85}
             duration={650}
           >
             Projects
@@ -94,7 +94,7 @@ class NavBar extends React.Component {
             to="ContactContainer"
             spy={true}
             smooth={true}
-            offset={-130}
+            offset={-95}
             duration={700}
           >
             Contact

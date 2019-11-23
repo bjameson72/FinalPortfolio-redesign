@@ -21,6 +21,7 @@
 }
 
 #NoFormContainer {
+    margin-top: 2rem;
     display: grid;
     grid-template-rows: 45% 17.5% 37.5%;
     justify-self: baseline;
