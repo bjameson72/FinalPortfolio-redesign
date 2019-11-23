@@ -24,7 +24,7 @@ class Splash extends React.Component {
                 to="ProjectsContainer"
                 spy={true}
                 smooth={true}
-                offset={-85}
+                offset={-120}
                 duration={600}
               >
                 Check out my work!
