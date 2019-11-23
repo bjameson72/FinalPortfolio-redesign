@@ -8,7 +8,8 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "react-scroll": "^1.7.14",
-    "react-tabs": "^3.0.0"
+    "react-tabs": "^3.0.0",
+    "sweetalert2": "^9.3.17"
   },
   "scripts": {
     "start": "react-scripts start",

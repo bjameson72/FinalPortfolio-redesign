@@ -1,4 +1,5 @@
 import React from "react";
+import Swal from "sweetalert2";
 import "../styling/Form.css";
 
 class Form extends React.Component {
@@ -54,12 +55,25 @@ class Form extends React.Component {
       .send("gmail", templateId, variables)
       .then(res => {
         console.log("Email successfully sent!");
+        Swal.fire({
+          title: "Success!",
+          text: "Thanks for reaching out!",
+          icon: "success",
+          timer: 2000
+        });
       })
-      .catch(err =>
-        console.error(
-          `Darn, this didn't work. Here some thoughts on the error that occured:`,
-          err
-        )
+      .catch(
+        err =>
+          console.error(
+            `Darn, this didn't work. Here some thoughts on the error that occured:`,
+            err
+          ),
+        Swal.fire({
+          title: "Oops!",
+          text: "That didn't work!",
+          icon: "error",
+          timer: 2000
+        })
       );
   }
 
@@ -72,24 +86,24 @@ class Form extends React.Component {
             name="name"
             onChange={this.handleChangeName}
             placeholder="Name"
-            required
             value={this.state.name}
+            required
           />
           <textarea
             id="email"
             name="email"
             onChange={this.handleChangeEmail}
             placeholder="Email (email@example.com)"
-            required
             value={this.state.email}
+            required
           />
           <textarea
             id="question"
             name="question"
             onChange={this.handleChangeQuestion}
             placeholder="Write your message here!"
-            required
             value={this.state.question}
+            required
           />
           <div id="RedButtonContainer">
             <input

@@ -1,5 +1,6 @@
 import React from "react";
 import Farragut from "../../assets/images/work.jpg";
+import Resume from "../../assets/images/Brock Resume-2019.pdf";
 
 const Work = () => (
   <div className="grid">
@@ -25,6 +26,18 @@ const Work = () => (
     <section className="pictures">
       <div className="pictureContainer">
         <img className="pic1" src={Farragut} alt="Farragut Academy" />
+        <h3 id="tagline">
+          Want more? Download my resume
+          <a
+            id="taglineLink"
+            href={Resume}
+            className="NavLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>
+        </h3>
       </div>
     </section>
   </div>

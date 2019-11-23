@@ -120,6 +120,15 @@
     margin-top: 1rem;
   }
 
+  #tagline {
+    text-align: center;
+  }
+
+  #taglineLink {
+    color: var(--red);
+    font-family: "Varela Round", sans-serif;
+  }
+
   @media all and (max-width: 1150px) {
     .react-tabs {
       width: 80%;
