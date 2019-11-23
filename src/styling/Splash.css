@@ -66,3 +66,29 @@
   height: 2rem;
 }
 
+@media all and (max-width: 1150px) {
+  #SplashInfoButtonContainer {
+    transform: translateY(-7.5rem);
+  }
+
+  #SplashSocialButtons {
+    transform: translateY(-5rem);
+  }
+}
+
+@media all and (max-width: 850px) {
+  #SplashInfoButtonContainer {
+    transform: translateY(-5.5rem);
+  }
+
+  #SplashSocialButtons {
+    transform: translateY(-3rem);
+  }
+}
+
+@media all and (max-width: 700px) {
+  #videoTag {
+    width: 150%;
+  }
+}
+

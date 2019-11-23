@@ -49,3 +49,9 @@
     width: 100%;
     color: var(--white);
 }
+
+@media all and (min-width: 2000px) {
+    #ProjectsContainer {
+      height: 60rem;
+    }
+  }

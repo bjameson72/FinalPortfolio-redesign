@@ -119,8 +119,19 @@
     margin-bottom: 4rem;
     margin-top: 1rem;
   }
-  
-  workPictures {
-    display: flex;
-    flex-direction: column;
+
+  @media all and (max-width: 1150px) {
+    .react-tabs {
+      width: 80%;
+    }
+  }
+
+  @media all and (max-width: 850px) {
+    .react-tabs {
+      width: 90%;
+    }
+
+    #AboutContainer {
+      height: 50rem;
+  }
   }

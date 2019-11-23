@@ -56,6 +56,7 @@
 }
 
 #ContactSocialButtons {
+    margin-top: 2rem;
     position: relative;
     align-self: center;
     display: flex;
