@@ -11,7 +11,7 @@
 }
 
 #LaptopContainer {
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
 }
@@ -30,16 +30,22 @@
 
 #ProjectsButton {
     position: relative;
-    margin-top: 3.5rem;
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-top: 4.5rem;
+    padding: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: var(--red);
     color: var(--white);
     border: none;
     border-radius: 7.5px;
     width: 12rem;
     height: 3rem;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
-  }
+}
+
+#GithubButton {
+    text-decoration: none;
+    width: 100%;
+    color: var(--white);
+}

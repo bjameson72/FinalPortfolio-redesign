@@ -25,7 +25,16 @@ class Projects extends React.Component {
           </a>
         </div>
         <div id="ButtonContainer">
-          <button id="ProjectsButton">View more work!</button>
+          <button id="ProjectsButton">
+            <a
+              id="GithubButton"
+              href="https://github.com/bjameson72"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View more on Github!
+            </a>
+          </button>
         </div>
       </div>
     );
