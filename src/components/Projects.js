@@ -10,14 +10,22 @@ class Projects extends React.Component {
       <div id="ProjectsContainer">
         <h1 id="ProjectsTitle">Recent Projects</h1>
         <div id="LaptopContainer">
-          <a href="www.sliceit.pizza" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://www.sliceit.pizza"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="laptop" src={sliceit} alt="Slice it link" />
           </a>
-          <a href="www.sliceit.pizza" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.aura.community"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="laptop" src={aura} alt="Aura link" />
           </a>
           <a
-            href="www.brockjameson.com"
+            href="http://www.brockjameson.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +38,7 @@ class Projects extends React.Component {
               id="GithubButton"
               href="https://www.github.com/bjameson72"
               target="_blank"
-              rel="noopener noreferrer"
+              relref="noopener noreferrer"
             >
               View more on Github!
             </a>
