@@ -41,7 +41,7 @@ class Projects extends React.Component {
               id="GithubButton"
               href="https://www.github.com/bjameson72"
               target="_blank"
-              relref="noopener noreferrer"
+              rel="noopener noreferrer"
             >
               View more on Github!
             </a>
