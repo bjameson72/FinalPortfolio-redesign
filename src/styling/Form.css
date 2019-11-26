@@ -76,3 +76,68 @@
 ::placeholder {
     color: var(--white);
 }
+
+@media all and (max-width: 450px) {
+    .btn--submit {
+        width: 45%;
+    }
+
+    #question {
+        width: 100%;
+        margin-top: .5rem;
+        height: 85%;
+        border-radius: 10px;
+        background-color: var(--extra-light-green);
+        border: none;
+        padding-top: .5rem;
+        padding-left: .5rem;
+    }
+
+    #email {
+        width: 100%;
+        height: 7.5%;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 3px solid;
+        border-bottom-color: var(--extra-light-green);
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        color: var(--white);
+    }
+
+    #name {
+        margin-top: 2.5rem;
+        width: 100%;
+        height: 7.5%;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 3px solid;
+        border-bottom-color: var(--extra-light-green);
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        color: var(--white);
+    }
+
+    #Form {
+        width: 75%;
+        height: 65%;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #FormContainer {
+        margin-top: 2rem;
+        width: 100%;
+        height: 50%;
+    }
+
+    #Form {
+        width: 75%;
+        height: 65%;
+        margin-bottom: 1.5rem;
+    }
+  }

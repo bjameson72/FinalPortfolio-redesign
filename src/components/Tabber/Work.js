@@ -17,7 +17,7 @@ const Work = () => (
       <p className="paragraphContent">
         After relocating to Los Angeles, I was able to find an opportunity at
         Talent Path as a Full-Stack Software Engineer where I was able to
-        continue learning and perfecting my skills as a web developer. Recently,
+        continue learning and polishing my skills as a web developer. Recently,
         I have gotten very familiar with building full-scale web applications
         using various JavaScript frameworks and libraries while also learning to
         work in larger development teams in an agile environment.

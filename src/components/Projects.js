@@ -11,6 +11,7 @@ class Projects extends React.Component {
         <h1 id="ProjectsTitle">Recent Projects</h1>
         <div id="LaptopContainer">
           <a
+            className="lapcont"
             href="http://www.sliceit.pizza"
             target="_blank"
             rel="noopener noreferrer"
@@ -18,6 +19,7 @@ class Projects extends React.Component {
             <img className="laptop" src={sliceit} alt="Slice it link" />
           </a>
           <a
+            className="lapcont"
             href="https://www.aura.community"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,6 +27,7 @@ class Projects extends React.Component {
             <img className="laptop" src={aura} alt="Aura link" />
           </a>
           <a
+            className="lapcont"
             href="http://www.brockjameson.com"
             target="_blank"
             rel="noopener noreferrer"

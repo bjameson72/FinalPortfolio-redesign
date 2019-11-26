@@ -1,1 +1,7 @@
 @import "../src/styling/main.css";
+
+@media all and (max-width: 700px) {
+    .App {
+        width: 100%;
+    }
+}

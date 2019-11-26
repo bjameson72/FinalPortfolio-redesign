@@ -1,19 +1,19 @@
 #videoTag {
-  margin-bottom: -0.5rem;
-  margin-top: -6rem;
-  
   width: 100%;
+  height: 100%;
   z-index: 0;
 }
 
 #SplashContainer {
   position: relative;
+  height: 100%;
 }
 
 #SplashSectionContainer {
   position: relative;
   display: flex;
   align-items: center;
+  height: 100%;
   justify-content: center;
 }
 
@@ -23,13 +23,14 @@
     align-items: center;
     position: absolute;
     z-index: 10;
-    transform: translateY(-9.5rem);
+
 }
 
 #SplashInfo {
   position: relative;
     z-index: 10;
     color: var(--white);
+    text-align: center;
 }
 
 #SplashButton {
@@ -50,7 +51,7 @@
   display: flex;
   height: 100%;
   align-items: flex-end;
-  transform: translateY(-7rem);
+
 }
 
 .socialIcon {
@@ -66,29 +67,41 @@
   height: 2rem;
 }
 
-@media all and (max-width: 1150px) {
-  #SplashInfoButtonContainer {
-    transform: translateY(-7.5rem);
-  }
-
-  #SplashSocialButtons {
-    transform: translateY(-5rem);
+@media all and (max-width: 1000px) {
+  #SplashContainer {
+    height: 40rem;
   }
 }
 
-@media all and (max-width: 850px) {
-  #SplashInfoButtonContainer {
-    transform: translateY(-5.5rem);
-  }
 
-  #SplashSocialButtons {
-    transform: translateY(-3rem);
-  }
-}
-
-@media all and (max-width: 700px) {
+@media all and (max-width: 750px) {
   #videoTag {
-    width: 150%;
+   object-fit: none;
+  }
+  #SplashContainer {
+    height: 30rem;
   }
 }
+
+
+@media all and (max-width: 550px) {
+  #SplashContainer {
+    height: 20rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #SplashInfo {
+    margin-top: 0;
+  }
+
+  #SplashButton {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+
 

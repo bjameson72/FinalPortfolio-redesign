@@ -6,7 +6,6 @@ import Instagram from "../assets/images/Instagram.png";
 import { Link } from "react-scroll";
 
 import CodeVid from "../assets/video/Source-Code.mp4";
-import NavBar from "./NavBar";
 
 class Splash extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 .NavBarContainer {
   height: 6rem;
   width: 100%;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   z-index: 10;
@@ -42,4 +42,57 @@
 
 .isScrolling #logoContainer #logo {
   margin-top: 0;
+} 
+
+#logoSmall {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  #logo {
+  display: none;
+  }
+
+  #logoSmall {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .NavLink {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  #linksContainer {
+    margin-right: 0;
+}
+
+.isScrolling {
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+}
+}
+
+
+@media all and (max-width: 350px) {
+  .NavBarContainer {
+    justify-content: initial;
+    height: 4rem;
+  }
+
+  #logoSmall {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .NavLink {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
 }

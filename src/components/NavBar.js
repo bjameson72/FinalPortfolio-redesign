@@ -3,7 +3,7 @@ import "../styling/NavBar.css";
 import Resume from "../assets/images/Brock Resume-2019.pdf";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-// import logo from "../assets/images/BJamesonLogo.png";
+import smallicon from "../assets/images/smallicon.ico";
 import logo from "../assets/images/smalllogo.png";
 
 const debounce = (func, wait) => {
@@ -63,6 +63,7 @@ class NavBar extends React.Component {
             duration={600}
           >
             <img src={logo} id="logo" alt="Brock Jameson" />
+            <img src={smallicon} id="logoSmall" alt="Brock Jameson" />
           </Link>
         </div>
         <div id="linksContainer">

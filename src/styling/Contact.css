@@ -77,3 +77,54 @@
   .icon {
     height: 3rem;
   }
+
+  #name {
+    resize: none;
+  }
+
+  #email {
+    resize: none;
+  }
+
+  @media all and (max-width: 550px) {
+    #ContactContainer {
+        height: 100rem;
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: 57% 43%; */
+        background-color: var(--green);
+        padding-top: 1rem;
+    }
+
+    #FormContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    #LeftTitleContainer {
+        margin-bottom: 2rem;
+    }
+
+    .ContactTitleBottom {
+        color: var(--white);
+        text-align: center;
+        margin-top: 0;
+        margin-right: .5rem;
+        margin-left: .5rem;
+        /* margin-bottom: 2rem; */
+        margin-bottom: 0;
+    }
+
+    #HeadshotContainer {
+        padding-top: 0;
+    }
+
+    #NoFormContainer {
+        margin-top: 0;
+    }
+  }
+
+  

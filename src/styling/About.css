@@ -17,3 +17,21 @@
   }
 }
 
+@media all and (max-width: 800px) {
+  #AboutContainer {
+    height: 60rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #AboutContainer {
+    height: 80rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #AboutContainer {
+    height: 95rem;
+  }
+}
+

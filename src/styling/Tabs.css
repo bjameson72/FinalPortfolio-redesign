@@ -135,12 +135,17 @@
     }
   }
 
-  @media all and (max-width: 850px) {
+  @media all and (max-width: 700px) {
     .react-tabs {
       width: 90%;
     }
+   
+    
+      .grid {
+        display: flex;
+        flex-direction: column;
+      }
+    
+  }
 
-    #AboutContainer {
-      height: 50rem;
-  }
-  }
+  
