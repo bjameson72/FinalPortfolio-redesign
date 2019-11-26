@@ -1,7 +1,7 @@
 import React from "react";
 import "../styling/NavBar.css";
 import Resume from "../assets/images/Brock Resume-2019.pdf";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import smallicon from "../assets/images/smallicon.ico";
 import logo from "../assets/images/smalllogo.png";

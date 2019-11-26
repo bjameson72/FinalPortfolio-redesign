@@ -23,7 +23,7 @@
     align-items: center;
     position: absolute;
     z-index: 10;
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -38,13 +38,19 @@
   position: relative;
   margin-top: 1rem;
   padding: 1rem;
-  background-color: var(--red);
+  background-color: rgba(191, 48, 59, .95);
   border: none;
   border-radius: 7.5px;
   z-index: 10;
-  width: 10rem;
-  font-size: 12px;;
+  width: 12rem;
+  font-size: 14px;
   cursor: pointer;
+
+}
+
+#SplashButton:hover {
+  background-color: rgba(191, 48, 59, .8);
+  color: var(--white);
 }
 
 #SplashSocialButtons {
@@ -52,7 +58,7 @@
   display: flex;
   height: 100%;
   align-items: flex-end;
-padding-bottom: 1rem;
+  padding-bottom: 8rem;
 }
 
 .socialIcon {
@@ -68,7 +74,15 @@ padding-bottom: 1rem;
   height: 2rem;
 }
 
+@media all and (max-width: 770px) {
+  #SplashSocialButtons {
+    padding-bottom: 4rem;
+  }
 
+  #AboutTitle {
+    padding-top: 4rem;
+  }
+}
 
 
 
@@ -86,9 +100,17 @@ padding-bottom: 1rem;
     margin-top: 0;
   }
 
+  #SplashInfoButtonContainer {
+    padding-bottom: 0;
+  }
+
   #SplashButton {
     margin-top: 0;
     margin-bottom: 1rem;
+  }
+
+  #SplashSocialButtons {
+    padding-bottom: 0;
   }
 
 
