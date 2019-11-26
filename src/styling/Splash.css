@@ -23,6 +23,7 @@
     align-items: center;
     position: absolute;
     z-index: 10;
+    padding-bottom: 1rem;
 
 }
 
@@ -51,7 +52,7 @@
   display: flex;
   height: 100%;
   align-items: flex-end;
-
+padding-bottom: 1rem;
 }
 
 .socialIcon {
@@ -67,24 +68,14 @@
   height: 2rem;
 }
 
-@media all and (max-width: 1000px) {
-  #SplashContainer {
-    height: 40rem;
-  }
-}
 
 
-@media all and (max-width: 750px) {
-  #videoTag {
-   object-fit: none;
-  }
-  #SplashContainer {
-    height: 30rem;
-  }
-}
 
 
 @media all and (max-width: 550px) {
+  #videoTag {
+    object-fit: none;
+   }
   #SplashContainer {
     height: 20rem;
   }

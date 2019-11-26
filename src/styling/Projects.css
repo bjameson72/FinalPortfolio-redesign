@@ -82,7 +82,7 @@
   }
 
   @media all and (max-width: 350px) { 
-    .projects {
+    .laptop {
         width: 17.5rem;
     }
 
